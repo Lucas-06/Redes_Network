@@ -6,5 +6,14 @@
 - [NetAcad](https://www.netacad.com/pt-br) : Link para realizar estudo na plataforma Cisco.
 
 
+#Troubleshooting de Ambiente Simulado.
+
+Modelo de Troubleshooting é baseado no modelo ISO/OSI 7 Camadas
+Neste modelo usamos até a camada 3 
+
+
+
+
+
 
 
