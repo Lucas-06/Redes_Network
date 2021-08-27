@@ -1,7 +1,7 @@
 # Redes_Network
 
 
-##Olá, aqui compartilho um pouco do meu conhecimento em redes, usando packect tracer. Alguns conhecimentos sobre redes empresariais. Conhecimento baseado em Roteadores e Switches CISCO
+## Olá, aqui compartilho um pouco do meu conhecimento em redes, usando packect tracer. Alguns conhecimentos sobre redes empresariais. Conhecimento baseado em Roteadores e Switches CISCO
 
 - [NetAcad](https://www.netacad.com/pt-br) : Link para realizar estudo na plataforma Cisco.
 
@@ -16,6 +16,8 @@ Modelo de Troubleshooting é baseado no modelo ISO/OSI 7 Camadas Neste modelo us
 ## **OBJETIVO:** restabelecer o mais prontamente possivel a infraestrutura do cliente.
 
 # Primeiro passo é analisar a sua topologia, o que voçê tem de informação sobre a rede defeituosa. 
+
+![fluxograma](Photo-cenário.png)
 
 ## Abaixo algumas anotações sobre a topologia disponível
 
