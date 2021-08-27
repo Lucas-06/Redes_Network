@@ -29,22 +29,40 @@ Após algumas anotações sobre a rede, partimos para a resolução dos problema
 
 ## Troubleshooting
 
-SENAI-PC1
+**SENAI-PC1**
 
 FÍSICO (Conexão de cabos)
-* 1. Estado da máquina  
+1. Estado da máquina  
 	(Ligado na tomada)
 2. Conexão de portas
 		(F0/0 <> F0/1) 
 
 LÓGICO (Sistema operacional)
 1. Configuração base
-* Hostname
-	(PC0 > SENAI-PC1)
+	* Hostname
+		(PC0 > SENAI-PC1)
 
 2. Interface(s) de rede
-* IP Configuration - OK
-* Máscara > OK
-* Gateway > OK
+	* IP Configuration - OK
+	* Máscara > OK
+	* Gateway > OK
 
+
+
+**SENAI-PC2**
+
+FÍSICA (Conexão de cabos)
+1. Estado da máquina 
+	 (Ligado na tomada)
+2. Conexão de portas
+		(F0/0 <> F0/2) 
+
+LÓGICO (Sistema operacional)
+1. Configuração base
+	* Hostname
+			(PC1 > SENAI-PC2)
+2. Interface(s) de rede
+	* IP Configuration - OK
+	* Máscara > OK
+	* Gateway > OK
 
