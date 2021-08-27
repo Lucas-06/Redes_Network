@@ -47,11 +47,9 @@ LÓGICO (Sistema operacional)
 	* Máscara > OK
 	* Gateway > OK
 
-
-
 **SENAI-PC2**
 
-FÍSICA (Conexão de cabos)
+FÍSICO (Conexão de cabos)
 1. Estado da máquina 
 	 (Ligado na tomada)
 2. Conexão de portas
@@ -66,3 +64,68 @@ LÓGICO (Sistema operacional)
 	* Máscara > OK
 	* Gateway > OK
 
+**SENAI-PHONE**
+FÍSICO (Conexão de cabos)
+1. Estado da máquina
+		(Cabo desconectado > Ligar Cabo na Interface de Configuração do Packet)
+2. Conexão de portas
+		(Fa <> F0/3)
+
+LÓGICO (Sistema operacional)
+1. Configuração base
+	* Hostname
+			(IP Phone0 > SENAI-PHONE)
+		
+**SENAI-PC3**
+FÍSICO (Conexão de cabos)
+1. Estado da máquina
+		(Ligado na tomada)
+2. Conexão de portas
+		(F0/0 <> Fa <> F0/3)
+
+LÓGICO (Sistema operacional)
+1. Configuração base
+	* Hostname
+			(PC2 > SENAI-PC3)
+2. Interface(s) de rede
+	* IP Incorreto 	IP Correto
+	* 192.168.30.10 > 192.168.30.20 
+	* Máscara > OK
+	* Mateway > OK
+
+**SENAI-RT**
+FÍSICO (Conexão de cabos)
+1. Estado do aparelho
+	* (Ligado na tomada)
+2. Conexão de portas
+	* Porta em interface errada
+		(G0/0 > F0/11 || G0/0 > F0/10)
+
+LÓGICO (Sistema operacional)
+1. Configuração base
+	* Hostname
+			(RT-SENAC > SENAI-RT)
+2. Interface(s) de rede (NIC)
+	* int G0/0 | Padrão shutdown
+	* shutdown > no shutdown
+3. Sub-interface(s)
+	* int G0/0.10 | IP Incorreto
+	* 192.168.100.1 > 192.168.10.1
+	* Máscara > OK
+
+	* int G0/0.20 | IP Correto
+	* 192.168.20.1
+	* Máscara > OK
+	* Encapsulamento VLAN Incorreto
+	* dot1Q 200 > dot1Q 20
+			
+	* int G0/0.30 | IP Correto
+	* 192.168.30.1 
+	* Máscara Incorreta 
+	* 255.255.255.252 > 255.255.255.0
+			
+	* int G0/0.40 | IP Correto
+	* 192.168.40.1 
+	* Máscara > OK
+	* Sub-interface Incorreta 
+	* int G0/0.400 > int G0/0.40
