@@ -27,16 +27,23 @@ Analisando a topologia fornecida devemos fazer anotações sobre cada detalhe qu
 
 Após algumas anotações sobre a rede, partimos para a resolução dos problemas. No modelo OSI, usamos o método em que começamos de baixo para cima, ou seja, Camada 1 - Física. Na camada física o principal problema encontrado é sempre relacionado a hardware, algo físico, em ambientes virtuais temos configurações que representa os itens citados anteriormente.
 
-
-- [Camada Física](https://pt.wikipedia.org/wiki/Camada_f%C3%ADsica) : Link com informações sobre a camada física do modelo OSI
-
-
 ## Troubleshooting
 
 SENAI-PC1
-FÍSICA (Conexão de cabos)
+
+FÍSICO (Conexão de cabos)
 1. Estado da máquina 
 	(Ligado na tomada)
 2. Conexão de portas
-		F0/0 <> F0/1 
+		(F0/0 <> F0/1) 
+
+LÓGICO (Sistema operacional)
+1. Configuração base
+* Hostname
+	(PC0 > SENAI-PC1)
+
+2. Interface(s) de rede
+* IP Configuration - OK
+* Máscara > OK
+* Gateway > OK
 
