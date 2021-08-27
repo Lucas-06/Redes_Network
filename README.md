@@ -32,7 +32,7 @@ Após algumas anotações sobre a rede, partimos para a resolução dos problema
 SENAI-PC1
 
 FÍSICO (Conexão de cabos)
-1. Estado da máquina 
+* 1. Estado da máquina  
 	(Ligado na tomada)
 2. Conexão de portas
 		(F0/0 <> F0/1) 
@@ -46,4 +46,5 @@ LÓGICO (Sistema operacional)
 * IP Configuration - OK
 * Máscara > OK
 * Gateway > OK
+
 
