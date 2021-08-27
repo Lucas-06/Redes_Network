@@ -4,7 +4,7 @@ Modelo de Troubleshooting é baseado no modelo ISO/OSI 7 Camadas. Neste modelo u
 
 - [Modelo OSI](https://pt.wikipedia.org/wiki/Modelo_OSI) : Link com informações sobre o modelo OSI e suas camadas.
 
-## **OBJETIVOS**
+## **OBJETIVO**
 
 Este é um ambiente simulado onde a Rede SENAI não funciona. Devemos exercitar o conhecimento sobre o modelo ISO/OSI de 7 camadas e restabelecer o mais prontamente possivel a infraestrutura do cliente.
 
@@ -25,6 +25,21 @@ Analisando a topologia fornecida devemos fazer anotações sobre cada detalhe qu
 - VTP SERVER - VLANS 10,20,30,40 | SENAI-SW1
 - VTP CLIENT - VLANS 10,20,30,40 | SENAI-SW2
 
+Após algumas anotações sobre a rede, partimos para a resolução dos problemas. No modelo OSI, usamos o método em que começamos de baixo para cima, ou seja, Camada 1 - Física. Na camada física o principal problema encontrado é sempre relacionado a hardware, algo físico, em ambientes virtuais temos configurações que representa os itens citados anteriormente.
+
+
+- [Camada Física](https://pt.wikipedia.org/wiki/Camada_f%C3%ADsica) : Link com informações sobre a camada física do modelo OSI
+
+
+## Troubleshooting
+
+SENAI-PC1
+FÍSICA (Conexão de cabos)
+1. Estado da máquina
+2. Ligado na tomada(Início)
+3. Conexão de portas
+		F0/0 <> F0/1 
+		
 
 
 
