@@ -1,25 +1,18 @@
-# Redes_Network
-
-
-## Olá, aqui compartilho um pouco do meu conhecimento em redes, usando packect tracer. Alguns conhecimentos sobre redes empresariais. Conhecimento baseado em Roteadores e Switches CISCO
-
-- [NetAcad](https://www.netacad.com/pt-br) : Link para realizar estudo na plataforma Cisco.
-
-# Troubleshooting de Ambiente Simulado.
+# Troubleshooting de Ambiente Simulado
 
 Modelo de Troubleshooting é baseado no modelo ISO/OSI 7 Camadas Neste modelo usamos até a camada 3
 
 - [Modelo OSI](https://pt.wikipedia.org/wiki/Modelo_OSI) : Link com informações sobre o modelo OSI e suas camadas.
 
-# **PROBLEMA:** rede SENAI não funciona.
+## **OBJETIVOS**
 
-## **OBJETIVO:** restabelecer o mais prontamente possivel a infraestrutura do cliente.
+Este é um ambiente simulado onde a Rede SENAI não funciona. Devemos exercitar o conhecimento sobre o modelo ISO/OSI de 7 camadas e restabelecer o mais prontamente possivel a infraestrutura do cliente.
 
-# Primeiro passo é analisar a sua topologia, o que voçê tem de informação sobre a rede defeituosa. 
+# Primeiro passo é analisar a sua topologia, o que voçê tem de informação sobre a rede defeituosa
 
 ![fluxograma](Photo-cenário.png)
 
-## Abaixo algumas anotações sobre a topologia disponível
+Analisando a topologia fornecida devemos fazer anotações sobre cada detalhe que temos, todas as informações possiveis descritas(Abaixo um exemplo de como realizar as anotações)
 
 ### PREMISSA - TÉCNICAS ###
 
